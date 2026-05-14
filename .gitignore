@@ -1,0 +1,4 @@
+#my virtual environment
+myvenv
+__pycache__/
+.vscode/
