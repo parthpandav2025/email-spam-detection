@@ -7,7 +7,7 @@ from src.model_evaluation import evaluate
 import pickle
 
 #Load The Dataset
-df = load_and_clean_data("notebooks\\sms.csv")
+df = load_and_clean_data("notebooks\\spamham.csv")
 
 #define X , y and cv(CountVectorizer)
 X , y , Tv = create_features(df)
